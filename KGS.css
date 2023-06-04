@@ -1,0 +1,98 @@
+* {
+  margin: 0px 0px;
+}
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 94.4px;
+  height: 32px;
+  margin: 10px 200px;
+}
+.logo:hover {
+  cursor: pointer;
+}
+.login {
+  background-color: #8d72e1;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  width: 85px;
+  height: 40px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 17px;
+  margin: 10px 200px;
+  font-weight: 600;
+}
+.login:hover {
+  cursor: pointer;
+  background-color: #6c4ab6;
+}
+.login:active {
+  background-color: #8d72e1;
+}
+hr {
+  border: solid 1px #8d9eff;
+}
+.body {
+  display: flex;
+}
+.body_left {
+  width: 1111px;
+  margin: 73px 0px 0px 102px;
+}
+.search {
+  height: 36px;
+  background-color: #b9e0ff;
+  border-radius: 20px;
+  margin: 0px 39px;
+  display: flex;
+  align-items: center;
+  opacity: 0.5;
+}
+.search_img {
+  margin: 0px 10px;
+}
+.search_input {
+  height: 30px;
+  width: 980px;
+  background-color: #b9e0ff;
+  opacity: 0.5;
+  border-style: none;
+}
+.search_ho {
+  margin: 15px 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #6c4ab6;
+}
+.body_right {
+  width: 549px;
+  margin: 21px 0px 0px 108px;
+}
+.choose {
+  margin: 0px 0px 0px 275px;
+  display: flex;
+}
+.all_button {
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  border: solid 1px #8d72e1;
+  border-radius: 10px;
+  font-size: 12px;
+}
+.noreading_button {
+  width: 100px;
+  height: 30px;
+  background-color: #8d72e1;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  opacity: 0.5;
+  margin: 0px 0px 0px 25px;
+  font-size: 12px;
+}
